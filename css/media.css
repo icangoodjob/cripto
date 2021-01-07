@@ -1,0 +1,207 @@
+@media screen and (max-width: 1499px) {
+	.header__content:after {
+		content: none;
+	}
+	.header__wrapper {
+		background: url(../img/gradient__bg.svg) no-repeat top, 
+		linear-gradient(69.69deg, #0D387E 21.19%, #1F74B1 72.93%);
+		background-size: cover;
+	}
+	.logo {color: #fff;}
+	.menu__link {color: #fff;}
+	h1 {color: #fff;}
+	.header__descr p {color: #fff;}
+	.course__items__wrapper {
+		flex-direction: column;
+	}
+	.course__item {
+		width: 400px;
+	}
+	.course__items__wrapper:before {
+		top: 65px;
+	}
+	.reserve__items__wrapper:before {
+		top: 65px;
+	}
+		.total__reserve {
+		margin-left: 160px;
+	}
+}
+@media screen and (max-width: 1352px) {
+	.tradeform__content {
+		flex-direction: column;
+	}
+	.tradeform__wrapper{
+		padding: 40px 120px 40px 40px;
+		margin-bottom: 30px;
+		margin-right: 0;
+		justify-content: space-between;
+	}
+	.give__section>label {
+		top: 0;
+		left: -30px;
+	}
+	.contact__section .blue__btn {margin-top: 31px;}
+	.comission__content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.contact__section input[type=text]:nth-child(4) {
+		margin-bottom: 17px;
+	}
+}
+@media screen and (max-width: 1193px) {
+	.container {max-width: 900px;}
+	.tradeform select {
+		width: 250px;
+	}
+	.tradeform input[type=text] {
+		width: 235px;
+	}
+	.contact__section .blue__btn {
+		width: 250px;
+	}
+	.course__item {width: 298px;}
+	.total__reserve {
+		margin-left: 60px;
+	}
+	.sert__item img {width: 210px;}
+}
+
+@media screen and (max-width: 1024px) {
+	.img__section {display: none;}
+	.course__content {justify-content: center;}
+	.aside {
+		margin-left: 0;
+	}
+	.reserve__items__wrapper {
+		display: block;
+	}
+	.course__item {
+		width: 550px;
+	}
+	.total__reserve {margin-left: 313px;}
+	.sert__item:first-child {margin-left: 0;}
+	.sert__item:last-child {margin-right: 0;}
+}
+
+@media screen and (max-width: 980px) {
+	.container {max-width: 680px;}
+	.brand {
+		align-self: center;
+		margin-left: 100px;
+	}
+	.user__btn {padding:20px;}
+	.rules__container {max-width: 680px;}
+	.rules__content {
+		flex-direction: column;
+		align-items: center;
+	}
+	.break {display: none;}
+	.rules__item {width: 640px;}
+	.sert__items__wrapper {
+		flex-wrap: wrap;
+	}
+	.sert__item{display: none;}
+	.adaptive__serts {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.tradeform__wrapper {
+		padding: 40px 20px 40px 20px;
+	}
+	.menuToggle{
+        display: block;
+        z-index: 666;
+    }
+    .menu{
+        display: none;
+        position: absolute;
+        background: #4774C7;
+        top: 0;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        padding-top: 98px;
+    }
+    .menu li{
+        display: block;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}	
+@media screen and (max-width: 720px) {
+	.container {max-width: 550px;}
+	.brand {margin-left: 50px;}
+	.rules__container {max-width: 550px;}
+	.tradeform input[type=text] {
+		width: 173px;
+	}
+	.tradeform select {width: 188px;}
+	.contact__section .blue__btn {
+		width: 188px;
+		margin-top: 31px;
+	}
+	.break {display: block;}
+	.rules__item {width: 450px;}
+	.support input[type=text] {
+		width: 490px;
+	}
+	.adaptive__serts {justify-content: center;}
+}
+@media screen and (max-width: 570px) {
+	.container {
+		max-width: 300px;
+	}
+	.brand {margin-left: 0;}
+	.rules__container {max-width: 300px;}
+	.tradeform__wrapper {
+		flex-direction: column;
+		padding: 32px 10px 22px 9px;
+	}
+	.tradeform input[type=text] {
+		width: 261px;
+	}
+	.tradeform select {width: 276px;}
+	.contact__section .blue__btn {
+		width: 276px;
+	}
+	.give__section {margin-right: 0;}
+	.give__section>label {
+		top: -32px;
+		left: 250px;
+	}
+	.take__section>label {
+		top: -31px;
+		left: 250px;
+	}
+	.course__item {
+		width: 290px;
+		margin-left: 0;
+	}
+	.total__reserve {margin-left:60px;}
+	.rules__item {
+		width: 100%;
+	}
+	.rules .descr {
+		font-size: 12px;
+	}
+	.support input[type=text] {
+		width: 210px;
+	}
+	.sert__item img  {
+		width: 140px;
+		height: 140px;
+	}
+	.course__items__wrapper .course__item {
+		width: 290px;
+	}
+	.course__items__wrapper:before {content: none;}
+	.reserve__items__wrapper:before {content: none;}
+	.copy__list {flex-direction: column;}
+	.copy__list__link {margin-right: 0;}
+	.copy__text {margin-right: 0; margin-bottom: 20px;}
+	.footer__addres {margin-top: 0;}
+}
